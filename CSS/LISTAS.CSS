@@ -1,0 +1,35 @@
+/* Documento CSS */
+
+*{margin: 0; }
+
+ 
+
+h2 {padding-bottom: 8px ; }
+
+header.cabecera { background-color: #45ce6c;
+                  padding: 16px 0px; 
+                  margin-bottom: 24px; }
+
+.temas { width: 70% ; 
+         border-bottom: 4px solid #45ce6c ;
+         margin:0px auto 16px auto ;
+         background-color: #f80202;}
+
+section.temas { background-color: #feffff;}
+
+.temas ol, .temas ul, .temas dl  { padding-bottom:  16px ; }
+
+#contenido { background-color: #eef6f6; }
+
+div.temas p , h3 { line-height: 170% ; 
+             padding: 16px ;
+             font-size: 1.2en ;}
+
+.pie { text-align: center;
+        background-color: #44ce6c; 
+        padding: 16px 0px ; 
+        font-weight: bold ;}
+
+.horario { padding-bottom: 16px ; 
+            width: 500px ; 
+         margin: auto; }

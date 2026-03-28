@@ -1,0 +1,57 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0; 
+ padding: 0;}
+
+h1 {text-align: center; 
+     background-color:#ed470ba1;
+     padding: 0px ;}
+
+.atajos ,.info { background-color: #f8fbfa; 
+         width: 100%; 
+         padding: 60px 0px; }
+
+.info { background-color: #ffffff;}
+
+.contenedor { width: 80%;
+             min-width:1px; 
+             padding: 16px; 
+             margin: auto; 
+             display: flex; 
+             flex-direction:row; 
+             flex-wrap: wrap; 
+             justify-content: space-between; } 
+
+.items { width: 23%;
+         min-width: 100px; 
+         height: 100px; 
+
+         text-align: center; }
+
+.items img { width: 100%; 
+             height: auto; 
+             border-radius: 8px;}
+
+.items2 { width: 60%;}
+
+.formulario { width: 40%; }
+
+.formulario input, textarea {width: 100%; 
+                             padding: 8px;
+                             margin-bottom: 8px;
+                             border-radius: 8px; 
+                             border: 1px solid #0000001b;
+                             box-sizing: border-box;}
+
+textarea {max-width: 100%; 
+         min-width: 100px; 
+         min-height: 100px; }
+
+#btn { width: 50%;}
+
+.pie { text-align:center;
+        background-color: #ff7e4f; 
+        padding: 16px 0px ; 
+        font-weight: bold ;
+        width: 100% ;}
+

@@ -1,0 +1,41 @@
+/*DOCUMENTO CSS*/
+
+body { background-color: #fac8b6;}
+
+.cabecera { text-align: center; 
+           font-size: 43m; 
+           margin: 16px 0px;}
+
+h1{ text-align: center; 
+     background-color:#f27a4e;
+     padding: 0px ;}
+
+.video { width:500px; 
+         height:400px; 
+         margin: auto;}
+
+.video iframe { width: 100%; 
+               height: 360px;}
+
+.pie { text-align:center;
+        background-color: #ff7e4f; 
+        padding: 16px 0px ; 
+        font-weight: bold ;}
+
+.items { width: 100%;
+         min-width: 100px; 
+         text-align:center; }
+
+.items img { width: 75%; 
+             height: auto; 
+             border-radius: 8px; 
+         margin-right: auto;}
+
+.pasos { text-align:center;
+          margin: 16px 0px;
+          font-size: 23m;}
+
+.atajos { background-color:#fac8b6 ; 
+         width: 90%; 
+         padding: 60px 0px; }
+         

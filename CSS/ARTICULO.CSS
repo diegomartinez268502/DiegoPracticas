@@ -1,0 +1,76 @@
+/*DOCUMENTO CSS*/
+
+*{ margin: 0; 
+  padding: 0;}
+
+body { font-family: "Exo", sans-serif; }
+
+.cabecera { text-align: center; 
+           font-size: 43m; 
+           margin: 16px 0px;}
+
+h1{ text-align: center; 
+     background-color: #f60000cf;
+     padding: 0px ;}
+
+.action { display: block; 
+            margin: 24px auto;
+            width: 260px; 
+            background-color: #ff5858;
+            color: whitesmoke; 
+            padding: 16px 0px; 
+            text-align: center; 
+            border-radius: 8px; 
+            text-decoration: none; }
+.action a:hover { background-color: rgb(9, 191, 130); }
+
+.action a:active { background-color: aqua; }
+
+.contenido p:nth-child(2) { background-color: rgb(248, 201, 144); 
+             padding:16px; 
+             border-radius:8px; 
+             border: 1px dotted black; 
+             width: 50%; 
+             margin: 16px auto;} 
+
+p.texto::before, p.texto::after {content:Hello; 
+                                 display: block; 
+                                 width:40px; 
+                                 height:40px;
+                                 background-image:url(../IMG/android.svg) ; 
+                                 background-repeat:no-repeat; 
+                                 background-size: cover; 
+                 } 
+
+p.texto::after { position: relative; 
+                 left:54vw; }
+
+.contenedor { width: 80%; 
+             margin: 16px auto; }
+
+.contenido  { width: 80%; 
+             margin: 16px auto; 
+             display: flex;}
+
+.items { width: 50%; }
+
+.items img, .items2 img { width: 100%;}
+
+.items2 { width: 33.33%;}
+
+.video { width:600px; 
+         height:400px; 
+         margin: auto;}
+
+.video iframe { width: 100%; 
+               height: 360px;}
+
+footer{ text-align: center;
+        background-color: #e65757;
+        padding: 8px 0px;
+        color: #cae7dd; }
+
+h2{ font-family: 'Times New Roman', Times, serif; 
+     text-align:center; 
+     background-color: rgb(227, 80, 22);
+     color: whitesmoke;}

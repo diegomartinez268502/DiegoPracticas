@@ -1,0 +1,47 @@
+/* Documento CSS */
+
+*{margin: 0; }
+
+body {background-color: rgb(158, 186, 241);}
+
+h1 {text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(202, 242, 242);
+    background-color: rgb(11, 11, 149);
+    text-transform: uppercase;
+    margin-bottom: 16px ;
+    padding: 16px 0px ;}
+
+h2, h4 { color: blueviolet;}
+
+h3, h5 {color: green}
+
+h6 { text-transform: uppercase;}
+
+h2, h3, h4, h5, h6 {padding: 8px 16px }
+
+div p {padding: 8px 16px;
+    line-height: 140%; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    font-size: 1.4em;}
+
+    div img { width: 450px;
+             margin: 8px auto;
+            display: block;} 
+
+div blockquote {width: 400px;
+                margin: 16px auto;
+                font-size: 2em;
+                border-left: 4px solid red;
+                padding-left: 16px; 
+                background-image: url(../IMG/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA5L3Jhd3BpeGVsb2ZmaWNlNV9oeXBlci1yZWFsaXN0aWNfZGVwaWN0aW9uX29mX2FfcmVhbF9hX2JpdF9kZWNheV8xOGNmNmI1Yy0yNGFjLTQ1MDYtYTQ1NC05MGQxYTkzM2Q1ZjUucG5n.webp);
+                background-size: 100px 100px;
+                background-repeat: no-repeat;
+                background-position: bottom right;}
+            
+footer p{ text-align: center;
+        background-color: blueviolet;
+        padding: 8px 0px;
+        color: rgb(202, 231, 221);
+        font-size: 3ex ;}

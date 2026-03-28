@@ -1,0 +1,23 @@
+/* Documento CSS */
+
+*{ margin: 8px ; }
+
+body{ font-family: 'Times New Roman', Times, serif; }
+
+h1{ text-align: center; 
+     background-color: #fe0404;
+     padding: 0px ;}
+
+h2{ font-family: 'Times New Roman', Times, serif; 
+     text-align:center; }
+
+.lugares p { font-family: 'Times New Roman', Times, serif; text-align: center;} 
+
+.lugares img{ width: 100%; } 
+.lugares{  width: 70%; margin: auto;} 
+
+footer{ text-align: center;
+        background-color: blueviolet;
+        padding: 8px 0px;
+        color: rgb(202, 231, 221); }
+    
